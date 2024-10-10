@@ -1,0 +1,47 @@
+/* For The Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .content h2 {
+        font-size: 1.75rem;
+    }
+
+    .sidebar h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
